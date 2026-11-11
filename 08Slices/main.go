@@ -6,7 +6,8 @@ import "sort"
 func main()  {
 	fmt.Println("Hello to class of Slices in golang");
 	
-	//slices are used to store multiple values of same type in a single variable. slices are dynamic in nature. we can add or remove elements from a slice. slices are built on top of arrays. slices are more flexible than arrays. slices are reference types. when we pass a slice to a function, we are passing the reference of the slice and not the copy of the slice.
+	//slices are used to store multiple values of same type in a single variable. slices are dynamic in nature. we can add or remove elements from a slice. 
+	// slices are built on top of arrays. slices are more flexible than arrays. slices are reference types. when we pass a slice to a function, we are passing the reference of the slice and not the copy of the slice.
 	//different from arrays, slices do not have a fixed size. we can create a slice using the make function or by slicing an array. we can also create a slice using the []type{} syntax.
 	
 	var fruitSlice = []string{} //no length but do initialise
